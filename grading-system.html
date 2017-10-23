@@ -1,0 +1,10 @@
+<p>
+    <label for="n1">How old are you?</label>
+    <!-- The pattern attribute can act as a fallback for browsers which
+         don't implement the number input type but support the pattern attribute.
+         Please note that browsers that support the pattern attribute will make it
+         fail silently when used with a number field.
+         Its usage here acts only as a fallback -->
+    <input type="number" min="0" max="100" step="1" id="n1" name="age"
+           pattern="\d+">
+  </p>
